@@ -5,7 +5,7 @@ class RockpaperscissorsController < ApplicationController
 
     def throw
         outcomes = ['Rock', 'Paper', 'Scissors']
-        @your_throw = params['throw']
+        @your_throw = params[:throw]
         @computer_throw = outcomes.sample
         @result = ''
 

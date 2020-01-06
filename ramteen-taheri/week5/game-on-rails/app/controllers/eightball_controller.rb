@@ -1,6 +1,18 @@
 class EightballController < ApplicationController
     def home
 
+        greetings = [
+            'What is on your mind?',
+            'Got a question for me?',
+            'Whats up?',
+            'Ask me something. Anything.',
+            'Enter your question here',
+            'Ask me something',
+            'Got a question? Fire away!'
+        ]
+
+        @greeting = greetings.sample
+
     end
 
     def answer
