@@ -1,0 +1,12 @@
+<h2>All Animals</h2>
+
+<ul>
+    <% @results.each do |animal| %>
+        <li>
+            <a href="/animals/<%= animal['id'] %>">
+                <%= animal['name'] %></li>
+            </a>      
+    <% end %>
+</ul>
+
+<a href="/animals/new"><input style="padding: 30px; cursor: pointer;" type="text" value="Create New Animal"></a>

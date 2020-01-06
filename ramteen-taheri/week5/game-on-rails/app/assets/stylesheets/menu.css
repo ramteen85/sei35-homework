@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+.menu {
+    margin: 50px auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 50%;
+    text-align: center;
+}
+
+.menu div {
+    margin-bottom: 30px;
+}
