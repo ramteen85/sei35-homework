@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+img.planet {
+    max-width: 500px;
+}
+
+nav a {
+    margin-right: 10px;
+}

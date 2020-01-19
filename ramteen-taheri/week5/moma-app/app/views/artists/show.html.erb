@@ -1,0 +1,13 @@
+<h2>
+    <%= @artist.name %>
+</h2>
+
+<p><strong>Nationality</strong>: <%= @artist.nationality %></p>
+<p><strong>Date of birth</strong>: <%= @artist.dob %></p>
+<p><strong>Period</strong>: <%= @artist.period %></p>
+<p><strong>Roundness</strong>: <%= @artist.roundness %></p>
+<p><strong>Biography</strong>: <%= @artist.bio %></p>
+
+<% if @artist.image.present? %>
+    <%= image_tag @artist.image, alt: @artist.name, class: 'artist' %>
+<% end %>
